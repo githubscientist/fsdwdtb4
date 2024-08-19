@@ -3,38 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tradbook</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        .table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <image src="Logo.png" alt="Tradbook"
-            class="logoImage">
+    <header>
+        <div>
+            <h1>Welcome to the home page</h1>
+            <h2>Click on the links below to navigate</h2>
+            <h3>Click on the image to view the Google Logo</h3>
+            <h4>Click on the links below to navigate</h4>
+            <h5>Click on the links below to navigate</h5>
+            <h6>Click on the links below to navigate</h6>
+            <p>Click on the <span style="color: red;">links</span> below to navigate</p>
         </div>
-        <div class="menu">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Destination</li>
-                <li>Tour</li>
-                <li>Blog</li>
-            </ul>
-        </div>
-        <div class="login">
-            <button class="loginButton">Login</button>
-            <button class="signupButton">Sign up</button>
-        </div>
-        <div class="description">description</div>
-        <div class="image">image</div>
-        <div class="cta">cta</div>
-    </div>
+    </header>
+    <a href="login.php">Login</a>
+    <ul type="circle">
+        <li><a href="register.php">Register</a></li>
+        <li><a href="forgot-password.php">Forgot Password</a></li>
+    </ul>
+
+    <ol type="I">
+        <li><a href="admin/login.php">Admin Login</a></li>
+        <li><a href="admin/register.php">Admin Register</a></li>
+    </ol>
+
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Profession</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Software Developer</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>Software Developer</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Software Developer</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>Software Developer</td>
+            <td>100000</td>
+    </table>
 </body>
 </html>
