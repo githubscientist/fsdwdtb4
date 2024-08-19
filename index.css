@@ -1,0 +1,13 @@
+/* .buttons button:last-child {
+    margin-left: 20px;
+} */
+
+/* .cancelButton {
+    margin-left: 20px;
+} */
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
